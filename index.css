@@ -1,0 +1,72 @@
+body{
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 2.8rem;
+  justify-content: center;
+}
+
+.list-of-tasks-todo{
+  padding-top: 10px;
+  width: 400px;
+}
+
+.task-status{
+  background: navy;
+  padding: 3px 10px;
+  font-size: 1.0rem;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+  
+}
+.task-name{
+  cursor:pointer;
+}
+.completed-task{
+  text-decoration: line-through;
+}
+.button{
+  border: 0;
+  cursor:pointer;
+  font-size: 18px;
+  outline: 0;
+}
+
+.task-status button{
+  color: brown ;
+}
+
+input{
+  background: white;
+  padding: 7px 10px;
+  font-size: 1rem;
+  color:black;
+  outline:0;
+  border:0;
+  flex:1;
+}
+
+form{
+  display:flex;
+  padding-top: 10px;
+}
+
+form button{
+  color:black;
+
+  outline:0;
+  padding: 0 15px;
+ 
+}
