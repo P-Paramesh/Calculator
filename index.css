@@ -31,9 +31,7 @@ h1{
   color:white;
   
 }
-.task-name{
-  cursor:pointer;
-}
+
 .completed-task{
   text-decoration: line-through;
 }
