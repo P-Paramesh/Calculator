@@ -3,6 +3,15 @@ body {
   margin: 0;
   background: linear-gradient(to right,  #0022, #72c494)
 }
+
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 4rem;
+  border: 1px solid red;
+  outline: none;
+  background-color:#3FBFB4;
+}
+
 .calculator-grid > button:hover {
   background-color: rgba(255, 255, 255, .99)
 }
