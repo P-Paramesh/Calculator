@@ -46,3 +46,8 @@ body {
   word-wrap: break-word;
   word-break: break-all;
 }
+
+.output .previous-operand {
+  color:rgba(255, 25, 255, .75);
+  font-size: 1.5rem;
+}
