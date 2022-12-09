@@ -10,6 +10,15 @@ body {
   background: linear-gradient(to right,  #0022, #72c494)
 }
 
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(6, 60px);
+}
+
 .calculator-grid > button {
   cursor: pointer;
   font-size: 4rem;
