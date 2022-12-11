@@ -42,12 +42,16 @@ class Calculator {
         case '-':
           computation = prev - current
           break
-              case '*':
+        case '*':
           computation = prev * current
           break
         case '÷':
           computation = prev / current
           break
-          default:
+        default:
               return
       }
+      this.currentOperand = computation
+      this.operation = undefined
+      this.previousOperand = ''
+    }
