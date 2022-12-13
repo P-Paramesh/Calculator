@@ -114,3 +114,4 @@ equalsButton.addEventListener('click', button => {
     calculator.compute()
     calculator.updateDisplay()
   })
+
