@@ -27,7 +27,6 @@ class Calculator {
       this.previousOperand = this.currentOperand
       this.currentOperand = ''
     }
-    
      compute() {
       let computation
       const prev = parseFloat(this.previousOperand)
